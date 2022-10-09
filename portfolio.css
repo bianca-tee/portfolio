@@ -81,3 +81,12 @@ p {
   border: 2px solid rgb(154, 205, 50);
   color: rgb(154, 205, 50);
 }
+
+@media (max-width: 960px) {
+  .homepage-divider {
+    margin: 30px auto;
+  }
+  .project-description {
+    text-align: center;
+  }
+}
