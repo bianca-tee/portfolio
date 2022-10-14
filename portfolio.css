@@ -50,7 +50,8 @@ p {
   margin-bottom: 50px;
 }
 
-.app-description {
+.app-description,
+.about-section p {
   color: rgba(39, 33, 66, 0.7);
   font-size: 16px;
   font-weight: 400;
@@ -110,4 +111,33 @@ p {
     font-size: 18px;
     margin-top: 10px;
   }
+}
+
+.about-section h1 {
+  font-family: var(--heading-font);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
+  margin: 20px 0;
+}
+
+.about-section h2 {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 30px 0;
+}
+
+.about-section p {
+  margin-bottom: 40px;
+}
+
+.img-headshot {
+  border-radius: 15px;
+  max-height: 560px;
+}
+
+.about-section-content {
+  margin: 200px auto 80px auto;
 }
