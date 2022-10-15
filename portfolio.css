@@ -41,6 +41,7 @@ p {
   background: #f9f7fe;
   border: 2px solid rgb(154, 205, 50);
   color: rgb(154, 205, 50);
+  transition: all ease-in-out 150ms;
 }
 
 .app-title {
@@ -81,6 +82,7 @@ p {
   background: white;
   border: 2px solid rgb(154, 205, 50);
   color: rgb(154, 205, 50);
+  transition: all ease-in-out 150ms;
 }
 
 .about-section h1 {
@@ -111,6 +113,32 @@ p {
 
 .about-section-content {
   margin: 200px auto 80px auto;
+}
+
+.img-box {
+  background-color: #f9f7fe;
+  border-radius: 10%;
+}
+
+.app-img {
+  border: none;
+  border-radius: 6%;
+  padding: 40px;
+}
+
+.work-section h3 {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 20px;
+}
+
+.work-section h1 {
+  font-family: var(--heading-font);
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 900px) {
