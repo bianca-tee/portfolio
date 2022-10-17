@@ -76,8 +76,13 @@ i {
   font-size: 18px;
 }
 
-.btn-branding:hover {
+.btn-homepage:hover {
   background: #f9f7fe;
+  color: var(--branding-color);
+}
+
+.btn-about:hover {
+  background-color: white;
   color: var(--branding-color);
 }
 
