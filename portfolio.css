@@ -3,8 +3,35 @@
   --secondary-font: "Poppins", sans-serif;
 }
 
+h1 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+}
+
 p {
+  color: rgba(39, 33, 66, 0.7);
   font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.button {
+  border: 2px solid rgb(154, 205, 50);
+  border-radius: 6px;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  padding: 20px 48px;
+  transition: all ease-in-out 180ms;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-family: var(--secondary-font);
+  font-weight: 700;
 }
 
 .homepage-hero {
@@ -14,9 +41,7 @@ p {
 }
 
 .homepage-hero h1 {
-  font-family: var(--heading-font);
   font-size: 96px;
-  font-weight: bold;
 }
 
 .homepage-hero h2 {
@@ -24,24 +49,18 @@ p {
   font-family: var(--secondary-font);
   font-size: 24px;
   font-weight: 400;
+  margin-bottom: 90px;
 }
 
 .btn-branding {
   background: rgb(154, 205, 50);
-  border: 2px solid rgb(154, 205, 50);
-  border-radius: 4px;
   color: white;
-  font-family: var(--secondary-font);
   font-size: 18px;
-  font-weight: 500;
-  padding: 18px 48px;
 }
 
 .btn-branding:hover {
   background: #f9f7fe;
-  border: 2px solid rgb(154, 205, 50);
   color: rgb(154, 205, 50);
-  transition: all ease-in-out 150ms;
 }
 
 .app-title {
@@ -49,14 +68,6 @@ p {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 50px;
-}
-
-.app-description,
-.about-section p {
-  color: rgba(39, 33, 66, 0.7);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
 }
 
 .homepage-divider {
@@ -68,41 +79,29 @@ p {
 }
 
 .btn-branding-outline {
-  border: 2px solid rgb(154, 205, 50);
-  border-radius: 4px;
   color: rgb(154, 205, 50);
-  font-family: var(--secondary-font);
   font-size: 16px;
-  font-weight: 500;
-  margin-top: 50px;
-  padding: 18px 48px;
 }
 
 .btn-branding-outline:hover {
   background: white;
-  border: 2px solid rgb(154, 205, 50);
   color: rgb(154, 205, 50);
-  transition: all ease-in-out 150ms;
 }
 
 .about-section h1 {
-  font-family: var(--heading-font);
   font-size: 64px;
-  font-weight: 700;
   line-height: 85px;
   margin: 20px 0;
 }
 
-.about-section h2 {
-  font-family: var(--secondary-font);
+.about-section h3 {
   font-size: 18px;
-  font-weight: 700;
   line-height: 27px;
   margin: 30px 0;
 }
 
 .about-section p {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .img-headshot {
@@ -127,18 +126,38 @@ p {
 }
 
 .work-section h3 {
-  font-family: var(--secondary-font);
   font-size: 24px;
-  font-weight: 700;
   line-height: 36px;
   margin: 20px;
 }
 
 .work-section h1 {
-  font-family: var(--heading-font);
   font-size: 64px;
-  font-weight: 700;
   margin-bottom: 50px;
+}
+
+nav img {
+  max-height: 50px;
+}
+
+nav {
+  margin: 20px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 0 15px;
+}
+
+nav ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
