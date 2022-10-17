@@ -2,6 +2,7 @@
   --heading-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
   --branding-color: rgb(154, 205, 50);
+  --background-color: #f9f7fe;
 }
 
 h1,
@@ -47,7 +48,7 @@ h5 {
 }
 
 .homepage-hero {
-  background-color: #f9f7fe;
+  background-color: var(--background-color);
   padding: 340px 0 250px 0;
   text-align: center;
 }
@@ -87,7 +88,7 @@ h5 {
 }
 
 .img-panel {
-  background-color: #f9f7fe;
+  background-color: var(--background-color);
 }
 
 .btn-branding-outline {
@@ -127,7 +128,7 @@ h5 {
 }
 
 .img-box {
-  background-color: #f9f7fe;
+  background-color: var(--background-color);
   border-radius: 10%;
 }
 
@@ -201,7 +202,7 @@ nav li a:hover {
   }
 
   .homepage-hero {
-    padding: 125px 0;
+    padding: 225px 0 125px 0;
   }
 
   .homepage-hero h1 {
