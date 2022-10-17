@@ -47,6 +47,11 @@ h5 {
   font-size: 18px;
 }
 
+i {
+  color: var(--branding-color);
+  font-size: 40px;
+}
+
 .homepage-hero {
   background-color: var(--background-color);
   padding: 350px 0 250px 0;
@@ -132,8 +137,6 @@ h5 {
 }
 
 .app-img {
-  border: none;
-  border-radius: 10px;
   padding: 40px;
 }
 
