@@ -4,7 +4,8 @@
   --branding-color: rgb(154, 205, 50);
 }
 
-h1 {
+h1,
+h4 {
   font-family: var(--heading-font);
   font-weight: 700;
 }
@@ -35,9 +36,19 @@ h3 {
   font-weight: 700;
 }
 
+h4 {
+  font-size: 48px;
+}
+
+h5 {
+  color: rgba(39, 33, 66, 0.7);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+}
+
 .homepage-hero {
   background-color: #f9f7fe;
-  padding: 250px 0;
+  padding: 340px 0 250px 0;
   text-align: center;
 }
 
@@ -85,8 +96,8 @@ h3 {
 }
 
 .btn-branding-outline:hover {
-  background: white;
-  color: var(--branding-color);
+  background: var(--branding-color);
+  color: white;
 }
 
 .about-section h1 {
@@ -120,6 +131,10 @@ h3 {
   border-radius: 10%;
 }
 
+.app-panels {
+  margin-bottom: 80px;
+}
+
 .app-img {
   border: none;
   border-radius: 6%;
@@ -138,28 +153,26 @@ h3 {
 }
 
 nav img {
-  max-height: 50px;
-}
-
-nav {
-  margin: 20px;
+  max-height: 100px;
 }
 
 nav li {
   display: inline;
   list-style: none;
-  padding: 0 15px;
+  padding: 0 25px;
 }
 
 nav ul {
   display: inline;
-  margin: 0;
+  margin: 0 20px 0 0;
   padding: 0;
 }
 
 nav li a {
   color: black;
   font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 400;
   text-decoration: none;
 }
 

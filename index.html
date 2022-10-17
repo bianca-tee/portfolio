@@ -25,21 +25,23 @@
     <link rel="stylesheet" href="portfolio.css" />
   </head>
   <body>
-    <nav class="d-flex justify-content-between align-items-center">
-      <a href="/"><img src="img/logo.png" alt="Logo" /></a>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="work.html">Work</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="fixed-top bg-white">
+      <nav class="d-flex justify-content-between align-items-center">
+        <a href="/"><img src="img/logo.png" alt="Logo" /></a>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="work.html">Work</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="homepage-hero">
       <h1 class="mb-4">Bianca Treu</h1>
       <h2>Front-end developer, based in Sydney</h2>
@@ -49,8 +51,8 @@
       A sentence here, yet to be determined
     </p>
     <div class="container">
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block img-panel">
+      <div class="row app-panels">
+        <div class="col d-none d-lg-block img-panel mb-5">
           <img
             src="img/food-waste-app.png"
             alt="Screenshot of Food Waste Project"
@@ -68,7 +70,7 @@
           <a href="#" class="button btn-branding-outline">Check it out</a>
         </div>
       </div>
-      <div class="row mb-5">
+      <div class="row app-panels">
         <div class="col ps-5 project-description">
           <h2 class="app-title mt-5">Weather App</h2>
           <p class="app-description mb-5">
@@ -83,7 +85,7 @@
           <img src="" alt="" />
         </div>
       </div>
-      <div class="row mb-5">
+      <div class="row app-panels">
         <div class="col d-none d-lg-block img-panel">
           <img src="" alt="" />
         </div>
@@ -98,6 +100,13 @@
           <a href="#" class="button btn-branding-outline">Check it out</a>
         </div>
       </div>
+      <footer class="d-flex justify-content-between">
+        <div>
+          <h4>Work Inquiry</h4>
+          <h5>Let's work together</h5>
+        </div>
+        <a href="" class="button btn-branding">Send me an email</a>
+      </footer>
     </div>
   </body>
 </html>
