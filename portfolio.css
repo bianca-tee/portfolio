@@ -96,10 +96,6 @@ footer {
   margin: 80px 0;
 }
 
-.img-panel {
-  background-color: var(--background-color);
-}
-
 .btn-branding-outline {
   color: var(--branding-color);
   font-size: 16px;
