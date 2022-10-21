@@ -182,7 +182,7 @@ footer .homepage-email:hover {
 
 .work-section h1 {
   font-size: 64px;
-  margin: 180px 0 50px 0;
+  margin: 180px 0 100px 0;
 }
 
 nav img {
@@ -244,6 +244,14 @@ nav li a:hover {
   .homepage-hero h2 {
     font-size: 18px;
     margin-top: 10px;
+  }
+
+  footer h4 {
+    font-size: 32px;
+  }
+
+  footer h5 {
+    font-size: 13px;
   }
 
   .img-headshot {
