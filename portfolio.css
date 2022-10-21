@@ -267,3 +267,17 @@ nav li a:hover {
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 450px) {
+  nav ul {
+    margin: 13px 0px 10px 13px;
+  }
+
+  nav li {
+    padding: 0px 19px;
+  }
+
+  .navbar-logo {
+    display: none;
+  }
+}
