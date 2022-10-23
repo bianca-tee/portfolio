@@ -277,6 +277,10 @@ nav li a:hover {
     padding: 0px 19px;
   }
 
+  nav li a {
+    font-size: 14px;
+  }
+
   .navbar-logo {
     display: none;
   }
