@@ -59,6 +59,7 @@ footer {
 
 .homepage-hero h1 {
   font-size: 120px;
+  margin-bottom: 24px;
 }
 
 .homepage-hero h2 {
@@ -239,11 +240,11 @@ nav li a:hover {
 
   .homepage-hero h1 {
     font-size: 55px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
   .homepage-hero h2 {
-    font-size: 18px;
-    margin-top: 10px;
+    font-size: 14px;
+    margin-top: 0px;
   }
 
   footer h4 {
