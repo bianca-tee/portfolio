@@ -153,7 +153,7 @@ footer .homepage-email:hover {
 }
 
 .about-section p {
-  margin-bottom: 80px;
+  margin: 0 80px 80px 0;
 }
 
 .img-headshot {
@@ -258,13 +258,30 @@ nav li a:hover {
     max-width: 300px;
   }
 
+  .about-section h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 90px 0 10px 0;
+  }
+
+  .about-section h3 {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
   .about-section-content {
     margin-top: 40px;
     text-align: center;
   }
 
   .about-section p {
-    margin-bottom: 20px;
+    font-size: 14px;
+    margin: 20px auto 60px;
+  }
+
+  .work-section h1 {
+    font-size: 48px;
+    margin: 130px 0 60px 0;
   }
 }
 
